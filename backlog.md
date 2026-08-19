@@ -34,7 +34,7 @@
 
 RAG 트랙과 K8s 트러블슈팅 트랙이 이 블로그의 주축입니다.
 
-> ✅ **(8/18 완료)** 기존 1순위 「RAG Hybrid Search 실전 가이드 — Dense·BM25·RRF」는 원고 작성을 마쳤습니다(`posts/hadesyi/04_RAG-Hybrid-Search.md`, 발행 대기). 아래는 남은 후보입니다.
+> ✅ **(8/18 완료)** 기존 1순위 「RAG Hybrid Search 실전 가이드 — Dense·BM25·RRF」는 원고 작성 후 **407번으로 비공개 발행까지 마쳤습니다**(`posts/hadesyi/04_RAG-Hybrid-Search.md`). 아래는 남은 후보입니다.
 
 | 우선순위 | 주제 | 근거 |
 | --- | --- | --- |
