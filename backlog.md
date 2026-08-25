@@ -40,7 +40,7 @@ RAG 트랙과 K8s 트러블슈팅 트랙이 이 블로그의 주축입니다.
 | 우선순위 | 주제 | 근거 |
 | --- | --- | --- |
 | 1 | RAG Reranker 완전정리 — Bi-Encoder·Cross-Encoder 2단계 검색 설계 | 404·405·04(Hybrid)가 전부 링크로 참조 중인 **남은 링크 부채**. 없으면 링크가 뜹니다 |
-| 2 | 임베딩 모델 선택과 평가 — Cosine·Recall@k·MRR·nDCG 실전 기준 | 404가 참조. 평가 지표 혼용 문제를 다루면 405와도 연결됩니다 |
+| ~~2~~ ✅ | ~~임베딩 모델 선택과 평가~~ | **8/25 작성 완료**(발행 대기). `posts/hadesyi/06_Embedding-Model-Evaluation.md` |
 | 3 | RAG 평가 파이프라인 — 골든 셋 구축과 회귀 테스트 | 404·405·04 모두 "골든 셋으로 측정하라"고 반복하는데, 그 골든 셋을 어떻게 만드는지는 없습니다 |
 | 4 | Kubernetes Probe 완전정리 — Liveness·Readiness·Startup 설계 | K8s 시리즈 5편. 401(CrashLoopBackOff)이 Probe를 언급하지만 전용 글 없음 |
 | 5 | vLLM Structured Outputs 완전정리 — JSON Schema·Regex·Grammar | 405가 링크로 참조 중 (링크 부채) |
