@@ -44,9 +44,9 @@ RAG 트랙과 K8s 트러블슈팅 트랙이 이 블로그의 주축입니다.
 | ~~2~~ ✅ | ~~임베딩 모델 선택과 평가~~ | **8/25 작성 완료**(발행 대기). `posts/hadesyi/06_Embedding-Model-Evaluation.md` |
 | 3 | RAG 평가 파이프라인 — 골든 셋 구축과 회귀 테스트 | 404·405·04 모두 "골든 셋으로 측정하라"고 반복하는데, 그 골든 셋을 어떻게 만드는지는 없습니다 |
 | 4 | Kubernetes Probe 완전정리 — Liveness·Readiness·Startup 설계 | K8s 시리즈 5편. 401(CrashLoopBackOff)이 Probe를 언급하지만 전용 글 없음 |
-| 5 | vLLM Structured Outputs 완전정리 — JSON Schema·Regex·Grammar | 405가 링크로 참조 중 (링크 부채) |
+| ~~5~~ ✅ | ~~vLLM Structured Outputs 완전정리~~ | **8/27 작성 완료**(발행 대기). `posts/hadesyi/07_vLLM-Structured-Outputs.md` — 마지막 링크 부채 해소 |
 
-남은 링크 부채는 **5번(vLLM Structured Outputs)** 하나입니다(405가 참조 중). 다음 작업에서 먼저 처리하는 편이 좋습니다.
+**링크 부채가 전부 청산됐습니다.** 남은 후보는 3번(RAG 평가 파이프라인)과 4번(K8s Probe)이며 둘 다 신규 주제입니다.
 
 ## 주제 선정 원칙 (재사용)
 
