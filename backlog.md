@@ -43,10 +43,10 @@ RAG 트랙과 K8s 트러블슈팅 트랙이 이 블로그의 주축입니다.
 | ~~1~~ ✅ | ~~RAG Reranker 완전정리~~ | **8/25 410번 발행 완료** |
 | ~~2~~ ✅ | ~~임베딩 모델 선택과 평가~~ | **8/25 작성 완료**(발행 대기). `posts/hadesyi/06_Embedding-Model-Evaluation.md` |
 | ~~3~~ ✅ | ~~RAG 평가 파이프라인 — 골든 셋 구축과 회귀 테스트~~ | **8/30 414번 공개 발행 완료**. `posts/hadesyi/08_RAG-Evaluation-Pipeline.md` |
-| 4 | Kubernetes Probe 완전정리 — Liveness·Readiness·Startup 설계 | K8s 시리즈 5편. 401(CrashLoopBackOff)이 Probe를 언급하지만 전용 글 없음 |
+| ~~4~~ ⏸ | ~~Kubernetes Probe 완전정리 — Liveness·Readiness·Startup 설계~~ | **8/30 작성·검증 완료, 발행 대기**. `posts/hadesyi/09_Kubernetes-Probes.md` |
 | ~~5~~ ✅ | ~~vLLM Structured Outputs 완전정리~~ | **8/29 413번 공개 발행 완료**. `posts/hadesyi/07_vLLM-Structured-Outputs.md` — 마지막 링크 부채 청산 |
 
-**링크 부채가 전부 청산됐고, 3번(RAG 평가 파이프라인)도 8/30에 발행했습니다.** 남은 후보는 **4번(K8s Probe)** 하나입니다. RAG 트랙은 6편(404→405→407→410→411→414)으로 완결됐으니, 다음은 **K8s 트러블슈팅 트랙**을 이어가는 것이 자연스럽습니다.
+**hadesyi backlog가 소진됐습니다.** RAG 트랙은 6편(404→405→407→410→411→414)으로 완결됐고, K8s 트랙 5편째(Probe)도 8/30에 작성을 마쳤습니다(발행 대기). 다음 주제는 새로 발굴해야 합니다 — 발행 후 **GSC 실적 보고서에서 유입 키워드가 잡히기 시작하면 그 주변으로 확장**하는 것이 가장 효율적입니다(주제 선정 원칙 4).
 
 ## 주제 선정 원칙 (재사용)
 
