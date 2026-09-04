@@ -29,7 +29,7 @@
 
 | 우선순위 | 주제 | 근거 (실측) |
 | --- | --- | --- |
-| ~~1~~ ⏸ | ~~vLLM 양자화 완전정리 — GGUF·AWQ·GPTQ·W4A16·FP8 선택 기준~~ | **9/2 작성·검증 완료, 발행 대기**(원칙 3에 따라 9/3 이후). `posts/hadesyi/10_vLLM-Quantization.md` — `vllm gguf` 계열 **129노출 / 9클릭** 대응 |
+| ~~1~~ ✅ | ~~vLLM 양자화 완전정리 — GGUF·AWQ·GPTQ·W4A16·FP8 선택 기준~~ | **9/4 416번 공개 발행 완료**. `posts/hadesyi/10_vLLM-Quantization.md` — `vllm gguf` 계열 **129노출 / 9클릭** 대응. **유입 데이터가 고른 첫 원고** |
 | **2** | **Kafka Consumer Lag 완전정리 — 원인 진단과 대응** | `kafka lag`(16) + `kafka consumer lag`(10) + `kafka consumer group lag`(2) = **28노출 0클릭**, 순위 5.5~8.3. **순위는 이미 좋은데 전용 글이 없습니다** |
 | **3** | **vLLM vs Ollama — 언제 무엇을 쓰나** | 7노출 1클릭, 순위 7.9. 비교형 검색이라 전환이 좋습니다 |
 | ~~⏸~~ ✅ | ~~Kubernetes Probe 완전정리~~ | **9/2 415번 공개 발행 완료**. `posts/hadesyi/09_Kubernetes-Probes.md` |
