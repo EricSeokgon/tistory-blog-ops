@@ -1,6 +1,6 @@
 # Kafka 컨슈머 리밸런싱 완전정리 — 발생 원인·Cooperative Sticky·정적 멤버십·KIP-848 선택 기준
 
-배포가 끝난 직후 5분 동안 주문 처리가 멈추고, 모니터링의 lag 그래프는 톱니처럼 치솟았다 내려오기를 반복합니다. 컨슈머 로그에는 `Attempt to heartbeat failed since group is rebalancing`과 `Revoking previously assigned partitions`가 번갈아 찍혀 있습니다. 처리 코드는 바뀐 게 없는데 그룹이 계속 재편성되고 있는 상황, 이 글은 그 **리밸런싱 자체**를 다룹니다. lag을 읽고 원인을 여섯 갈래로 좁히는 전체 진단은 「Kafka Consumer Lag 완전정리」에서 정리했고, 여기서는 그중 한 갈래인 리밸런싱을 꺼내 **왜 일어나는지, 왜 그룹 전체가 멈추는지, 어떤 순서로 줄여 가는지**만 깊게 봅니다.
+배포가 끝난 직후 5분 동안 주문 처리가 멈추고, 모니터링의 lag 그래프는 톱니처럼 치솟았다 내려오기를 반복합니다. 컨슈머 로그에는 `Attempt to heartbeat failed since group is rebalancing`과 `Revoking previously assigned partitions`가 번갈아 찍혀 있습니다. 처리 코드는 바뀐 게 없는데 그룹이 계속 재편성되고 있는 상황, 이 글은 그 **리밸런싱 자체**를 다룹니다. lag을 읽고 원인을 여섯 갈래로 좁히는 전체 진단은 「[Kafka Consumer Lag 완전정리](https://hadesyi.tistory.com/364)」에서 정리했고, 여기서는 그중 한 갈래인 리밸런싱을 꺼내 **왜 일어나는지, 왜 그룹 전체가 멈추는지, 어떤 순서로 줄여 가는지**만 깊게 봅니다.
 
 ## 핵심 요약
 
@@ -260,9 +260,9 @@ cooperative는 **멈추는 범위**를 줄이지 **횟수**를 줄이지 않습�
 
 ## 함께 읽으면 좋은 글
 
-- Kafka Consumer Lag 완전정리 — 확인 방법·원인 진단·리밸런싱·처리량 튜닝
-- Kubernetes Probe 완전정리 — Liveness·Readiness·Startup 설계 기준
-- Kubernetes CrashLoopBackOff 해결 가이드 — 로그·이벤트·Probe·OOM 점검
-- 실전 운영 장애 사례 10선 + 장애 복구 플레이북
+- [Kafka Consumer Lag 완전정리 — 확인 방법·원인 진단·리밸런싱·처리량 튜닝](https://hadesyi.tistory.com/364)
+- [Kubernetes Probe 완전정리 — Liveness·Readiness·Startup 설계와 흔한 오설정](https://hadesyi.tistory.com/415)
+- [Kubernetes CrashLoopBackOff 해결 가이드 — 로그·이벤트·Probe·OOM 점검](https://hadesyi.tistory.com/393)
+- [5편. 실전 운영 장애 사례 10선 + 장애 복구 플레이북](https://hadesyi.tistory.com/344)
 
 태그(9개): ConsumerGroup, CooperativeSticky, kafka, kafka운영, KIP-848, rebalance, 리밸런싱, 장애대응, 트러블슈팅

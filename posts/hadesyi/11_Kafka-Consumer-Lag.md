@@ -346,7 +346,7 @@ kafka-topics.sh --bootstrap-server broker1:9092 \
 partition.assignment.strategy=org.apache.kafka.clients.consumer.CooperativeStickyAssignor
 ```
 
-기본값이 `RangeAssignor, CooperativeStickyAssignor` 순서라 **협조적 방식이 저절로 켜지지는 않습니다.** 명시적으로 지정해야 합니다. 다만 전환은 롤링으로 두 번 배포해야 하므로 순서를 확인하고 진행하십시오.
+기본값이 `RangeAssignor, CooperativeStickyAssignor` 순서라 **협조적 방식이 저절로 켜지지는 않습니다.** 명시적으로 지정해야 합니다. 전환은 기본 목록을 그대로 쓰고 있다면 `RangeAssignor`를 빼는 **롤링 재시작 한 번**으로 끝나고, `RangeAssignor`만 단독으로 지정해 두었다면 추가→제거의 두 번이 필요합니다. 자세한 절차는 [Kafka 컨슈머 리밸런싱 완전정리](https://hadesyi.tistory.com/390)에 정리했습니다.
 
 ### ② 정적 멤버십(static membership)
 
@@ -427,10 +427,11 @@ kafka-consumer-groups.sh --bootstrap-server $BS --describe --group $G --members
 
 📎 **함께 읽으면 좋은 글**
 
-- 실전 운영 장애 사례 10선 + 장애 복구 플레이북
-- Kubernetes OOMKilled 해결 가이드 — Exit 137·limits·JVM Heap·cgroup v2 원인별 점검
-- Kubernetes CrashLoopBackOff 해결 가이드 — 로그·이벤트·Probe·OOM 점검
-- Kubernetes Probe 완전정리 — Liveness·Readiness·Startup 설계 기준
-- Spring Boot Redis 캐시 적용 전 반드시 확인할 체크리스트
+- [Kafka 컨슈머 리밸런싱 완전정리 — 발생 원인·Cooperative Sticky·정적 멤버십·KIP-848 선택 기준](https://hadesyi.tistory.com/390)
+- [5편. 실전 운영 장애 사례 10선 + 장애 복구 플레이북](https://hadesyi.tistory.com/344)
+- [Kubernetes OOMKilled 해결 가이드 — Exit 137·limits·JVM Heap·cgroup v2 원인별 점검](https://hadesyi.tistory.com/406)
+- [Kubernetes CrashLoopBackOff 해결 가이드 — 로그·이벤트·Probe·OOM 점검](https://hadesyi.tistory.com/393)
+- [Kubernetes Probe 완전정리 — Liveness·Readiness·Startup 설계와 흔한 오설정](https://hadesyi.tistory.com/415)
+- [Spring Boot Redis 캐시 적용 전 반드시 확인할 체크리스트: 장애를 막는 운영 기준](https://hadesyi.tistory.com/365)
 
 태그(9개): consumer-lag, devops, kafka, 리밸런싱, 메시지큐, 모니터링, 장애대응, 처리량, 트러블슈팅
