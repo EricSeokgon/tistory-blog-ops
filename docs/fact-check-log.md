@@ -164,3 +164,15 @@
 
 검증 통과: 미수 결제 T+2(미납 시 T+3 반대매매), 담보유지비율 140% 일반값, 깡통계좌 시 잔여 융자금 상환 의무
 
+
+---
+
+## 2026-10-17 — hadesyi 14 (vLLM 모니터링) 1건 정정
+
+출처: vLLM 공식 문서 usage/metrics, vLLM 저장소 `examples/observability/prometheus_grafana`, 소스 `vllm/v1/metrics/loggers.py`·`vllm/v1/engine/async_llm.py`·`vllm/config/cache.py`(태그 v0.11.0·v0.19.0·v0.20.0·main)
+
+| # | 원고 | 정정 |
+| --- | --- | --- |
+| 1 | `--gpu-memory-utilization` 기본값 0.9 | **0.19까지 0.9, 0.20부터 0.92** |
+
+검증 통과: `/metrics` 기본 노출, 레이블 `model_name`·`engine`, 카운터 `_total` 접미어, `kv_cache_usage_perc` 0~1 범위, `gpu_cache_usage_perc`·`gpu_prefix_cache_*` 0.9.2 폐기·0.11부터 `--show-hidden-metrics-for-version`으로만 노출, `--disable-log-stats` 시 Prometheus 로거 미생성, 예제 prometheus.yaml(5s 수집·host.docker.internal:8000)·Grafana 기본 계정 admin/admin·데이터 소스 `http://prometheus:9090`·대시보드 패널 목록
