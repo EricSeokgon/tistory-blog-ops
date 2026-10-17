@@ -53,6 +53,7 @@
 
 ### 발행 완료 이력
 
+> ✅ **422 vLLM 모니터링 완전정리 (10/17)** — `vllm:kv_cache_usage_perc`·`kv_cache_usage_perc` 검색어 대응. 10/17 GSC 상위 무클릭 검색어(`로컬 llm 구축 사양`·`l40s vram`·`crashloopbackoff`·`--gpu-memory-utilization` 등)는 자체 검색 결과 전부 기존 글(`/368`·`/316`·`/393`·`/373`·`/384`)이 커버 → **기존 글 보강 대상**
 > ✅ RAG 트랙 6편 완결 — 404(청킹) → 405(쿼리변환) → 407(Hybrid) → 410(Reranker) → 411(임베딩 평가) → **414(평가 파이프라인, 8/30)**
 > ✅ 413 vLLM Structured Outputs (8/29) — `vllm grammar`·`vllm json schema` 검색어 대응. 색인되면 유입이 붙을 것으로 봅니다
 
