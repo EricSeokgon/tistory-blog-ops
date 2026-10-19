@@ -12,8 +12,8 @@
 
 | 블로그 | 주소 | 성격 | 글 수 |
 | --- | --- | --- | --- |
-| 주식 한 입 | https://ericreview.tistory.com | 주식 투자 입문 (초보 교육) | 107 (10/17, 최신 `/108`) |
-| HadesYI Dev Story | https://hadesyi.tistory.com | 개발 · AI/LLM 엔지니어링 | 418 (10/17, 최신 `/422`) |
+| 주식 한 입 | https://ericreview.tistory.com | 주식 투자 입문 (초보 교육) | 108 (10/18, 최신 `/109`) |
+| HadesYI Dev Story | https://hadesyi.tistory.com | 개발 · AI/LLM 엔지니어링 | 419 (10/18, 최신 `/423`) |
 
 두 블로그 모두 **같은 티스토리 계정(카카오)** 으로 운영됩니다.
 
