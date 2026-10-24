@@ -1,6 +1,12 @@
 # STATE — 현재 진행 상태
 
-최종 갱신: **2026-10-19 (KST)** · 상세 기록: `docs/work-log-2026-10-19.md` (직전: `work-log-2026-10-17.md`)
+최종 갱신: **2026-10-24 (KST)** · 상세 기록: `docs/work-log-2026-10-19.md` (직전: `work-log-2026-10-17.md`)
+
+> 🗓 **10/24 4분기 기획 수립 — `docs/plan-2026-Q4.md`** (10/25~12/31 주차별). 방향 3축: **A** 얇은 1페이지 글 보강 · **B** 트렌드 신규(HadesYI: 코딩 에이전트·MCP·SGLang·K8s GPU·Spring Boot 4·KRaft / 주식 한 입: 기술적 분석 시리즈·AI 밸류체인 업종·수급) · **C** 계절 신규(연말 절세·배당소득 분리과세·연금 막차·배당락·연말정산·2027 전망 읽기). 측정 11/1주·12/1주·결산 12월 말. 수익화 점검(애드센스 상태·RPM·도서 제휴)은 4절.
+>
+> 🛠 **반영 대기 원고 2편(로그인 필요):** E2 `posts/ericreview/13_ROIC-WACC.md` → `/81` 교체(10/20 커밋) · H2 `posts/hadesyi/18_Local-LLM-API-Server.md` → `/318` 교체(10/21 커밋). 둘 다 **발행일 유지 → 공개 발행 → 색인 재요청**. 다음은 W44 표(`plan-2026-Q4.md` 2절).
+>
+> 📊 10/24 실측 글 수: ericreview **109**(최신 `/110`) · hadesyi **422**(최신 `/426`, 사용자 직접 발행 TimeParents 1.8.0).
 
 > ✅ **10/18 신규 공개 발행 2편 — 얇은 카테고리 채우기 시작**(사용자 요청: 블로그당 하루 1편, 글이 적은 카테고리부터) — hadesyi **`/423`** 「Kubernetes Pod Evicted 해결 가이드 — DiskPressure·MemoryPressure·ephemeral-storage 원인별 점검」(트러블슈팅 & 장애 대응, `posts/hadesyi/16_Kubernetes-Evicted.md`, 렌더 13,908자 / H2 16 / pre 15 / 표 3, 2026-10-18T09:48:41) · ericreview **`/109`** 「FOMC 읽는 법 — 성명서·점도표·기자회견으로 금리 결정 해석하기 (2026)」(경제 동향 & 시장 분석, `posts/ericreview/11_FOMC-Reading.md`, 렌더 3,795자 / H2 10 / 표 1, 2026-10-18T10:21:01). **둘 다 색인 요청 완료.** 상세: `docs/work-log-2026-10-18.md`
 >
