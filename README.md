@@ -49,7 +49,7 @@ docs/plan-2026-Q4.md의 이번 주 표와 STATE.md의 "다음 할 일"부터 이
 │   └── work-log-YYYY-MM-DD.md    작업 로그 18일분 (8/18 ~ 10/19)
 ├── posts/
 │   ├── ericreview/               원고 14편 (01~13 반영 완료, 14 연금저축·IRP 막차 발행 대기; /111~/122 원고는 미회수)
-│   └── hadesyi/                  원고 18편 (01~18 반영 완료; /429~/442 원고는 미회수)
+│   └── hadesyi/                  원고 19편 (01~18 반영 완료, 19 IT 제안서·PoC 발행 대기; /429~/443 원고는 미회수)
 └── scripts/
     ├── tistory-inject.js         브라우저 콘솔용 본문 주입 스크립트 (marked.js → TinyMCE)
     └── README.md                 스크립트 사용법
